@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CallCenter xmlns="http://soap.sforce.com/2006/04/metadata">
+    <adapterUrl>/hvcc/amz/index.html</adapterUrl>
+    <customSettings>{&quot;reqTimeout&quot;:&quot;5000&quot;,&quot;reqStandbyUrl&quot;:&quot;https://domain:port/softphone&quot;,&quot;reqCallCenterType&quot;:&quot;SCVOOTBTelephony&quot;,&quot;reqSoftphoneHeight&quot;:&quot;300&quot;,&quot;reqUseApi&quot;:&quot;true&quot;,&quot;reqSoftphoneWidth&quot;:&quot;500&quot;,&quot;reqSalesforceCompatibilityMode&quot;:&quot;Lightning&quot;}</customSettings>
+    <displayName>BH Contact Center</displayName>
+    <displayNameLabel>Display Name</displayNameLabel>
+    <internalNameLabel>Internal Name</internalNameLabel>
+    <sections>
+        <items>
+            <label>CTI Adapter URL</label>
+            <name>reqAdapterUrl</name>
+            <value>/hvcc/amz/index.html</value>
+        </items>
+        <items>
+            <label>Use CTI API</label>
+            <name>reqUseApi</name>
+            <value>true</value>
+        </items>
+        <items>
+            <label>Softphone Height</label>
+            <name>reqSoftphoneHeight</name>
+            <value>300</value>
+        </items>
+        <items>
+            <label>Softphone Width</label>
+            <name>reqSoftphoneWidth</name>
+            <value>500</value>
+        </items>
+        <items>
+            <label>Salesforce Compatibility Mode</label>
+            <name>reqSalesforceCompatibilityMode</name>
+            <value>Lightning</value>
+        </items>
+        <label>General Information</label>
+        <name>reqGeneralInfo</name>
+    </sections>
+    <sections>
+        <items>
+            <label>Telephony Provider</label>
+            <name>reqTelephonyProvider</name>
+            <value>AMAZON_CONNECT</value>
+        </items>
+        <items>
+            <label>Instance Name</label>
+            <name>reqInstanceName</name>
+            <value>BHContactCenter00D8Z000000ZIBs</value>
+        </items>
+        <items>
+            <label>Relay State</label>
+            <name>reqRelayState</name>
+            <value>https://us-west-2.console.aws.amazon.com/connect/federate/d96e3c6f-b147-451b-a353-a20716f78f01</value>
+        </items>
+        <items>
+            <label>Identity URL</label>
+            <name>reqIdentityUrl</name>
+            <value>https://bwitzventures-dev-ed.my.salesforce.com/idp/login?app=0sp8Z0000010wG6</value>
+        </items>
+        <items>
+            <label>Telephony Integration Certificate</label>
+            <name>reqTelephonyIntegrationCertificate</name>
+            <value>-----BEGIN CERTIFICATE-----
+MIICyTCCAjKgAwIBAgIJKpt0zwlGUgHxMA0GCSqGSIb3DQEBBQUAMIGCMQswCQYD
+VQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDVNhbiBGcmFuY2lzY28xFzAV
+BgNVBAoTDnNhbGVzZm9yY2UuY29tMRswGQYDVQQDExJ3d3cuc2FsZXNmb3JjZS5j
+b20xGDAWBgNVBAsTDzAwRDhaMDAwMDAwWklCczAeFw0yNDAxMTUwMDQ5MDlaFw0y
+NTAxMTQwMDQ5MDlaMIGCMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNV
+BAcTDVNhbiBGcmFuY2lzY28xFzAVBgNVBAoTDnNhbGVzZm9yY2UuY29tMRswGQYD
+VQQDExJ3d3cuc2FsZXNmb3JjZS5jb20xGDAWBgNVBAsTDzAwRDhaMDAwMDAwWklC
+czCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAxZaIHf9cmO5oq30gRgxQxMCN
+q5qyiKDuvTSlc+jDF7+LrgZFAGRwJORvvXc+su9nMA91zOycm55WOCFYRz57/XM1
+O5qhxt+kUhsj9WBxpp5I9BlerMsSQ1oj1JUIOrWvKr4SDViDhZx+BHL5PxUde+kk
+4YMvGaqUrXrBBYAL+ekCAwEAAaNFMEMwDAYDVR0TBAUwAwEB/zALBgNVHQ8EBAMC
+AvQwJgYDVR0RBB8wHYYbaHR0cDovL2V4YW1wbGUub3JnL3dlYmlkI21lMA0GCSqG
+SIb3DQEBBQUAA4GBAJm6HbczQNR5uKGjdAz3nHR8IemyR4H9gE2qiWQROFZoiNfh
+cLSzTfejXRlwEXOGGeCiBOLT7/dPkq49Wvr+NrpX81+5a1K65dYYdj9HBl+zpMYv
+oKgTilfmu3P2vRuc5JFpBuGaMbUDsVahOwMLFgneIuctEfH+Ox7RnKJ3F5Aj
+-----END CERTIFICATE-----</value>
+        </items>
+        <items>
+            <label>Region</label>
+            <name>reqRegion</name>
+            <value>us-west-2</value>
+        </items>
+        <items>
+            <label>Connected App Id</label>
+            <name>reqConnectedAppId</name>
+            <value>0H48Z0000011S6H</value>
+        </items>
+        <items>
+            <label>Instance Id</label>
+            <name>reqInstanceId</name>
+            <value>d96e3c6f-b147-451b-a353-a20716f78f01</value>
+        </items>
+        <items>
+            <label>Instance Service Role</label>
+            <name>reqInstanceServiceRole</name>
+            <value>arn:aws:iam::381491971998:role/aws-service-role/connect.amazonaws.com/AWSServiceRoleForAmazonConnect_wbs4JlagwDFWPKmWQgS4</value>
+        </items>
+        <items>
+            <label>Settings Relay State</label>
+            <name>reqSettingsRelayState</name>
+            <value>https://us-west-2.console.aws.amazon.com/connect/federate/d96e3c6f-b147-451b-a353-a20716f78f01</value>
+        </items>
+        <items>
+            <label>Stack Id</label>
+            <name>reqStackId</name>
+            <value>arn:aws:cloudformation:us-west-2:381491971998:stack/BHContactCenter-SCVContactCenterStack/28a02700-b33f-11ee-be66-063c21a5cb51</value>
+        </items>
+        <items>
+            <label>Instance Recording Role</label>
+            <name>reqInstanceRecordingRole</name>
+            <value>arn:aws:iam::381491971998:role/BHContactCenter-ConnectCallRole</value>
+        </items>
+        <items>
+            <label>Telephony Integration Keypair Expiration Date</label>
+            <name>reqTelephonyIntegrationKeyPairExpDate</name>
+            <value>14/01/2025 00:49:07</value>
+        </items>
+        <items>
+            <label>Rest API Connected App Id</label>
+            <name>reqRestApiConnectedAppId</name>
+            <value>0H48Z0000011S6I</value>
+        </items>
+        <items>
+            <label>Salesforce ApiVersion</label>
+            <name>reqAppApiVersion</name>
+            <value>59.0</value>
+        </items>
+        <items>
+            <label>Trusted Role ARN</label>
+            <name>reqTrustedRoleARN</name>
+            <value>arn:aws:iam::381491971998:role/ProvisioningRole</value>
+        </items>
+        <items>
+            <label>Universal Call Recording Access</label>
+            <name>reqUniversalCallRecordingAccess</name>
+            <value>false</value>
+        </items>
+        <items>
+            <label>Presence Sync Status Access</label>
+            <name>reqPresenceStatusSyncAccess</name>
+            <value>true</value>
+        </items>
+        <items>
+            <label>Quick Connect for Omni Flow Transfer Id</label>
+            <name>reqTransferTargetForOmniFlowTransfer</name>
+            <value>arn:aws:connect:us-west-2:381491971998:instance/d96e3c6f-b147-451b-a353-a20716f78f01/transfer-destination/40ae01e3-f3e0-4d6d-9e13-2d35a5e0ad47</value>
+        </items>
+        <items>
+            <label>Quick Connect for Omni Flow Transfer</label>
+            <name>reqTransferTargetForOmniFlowTransferDisplayName</name>
+            <value>Quick Connect for Omni-Channel Flow Transfers</value>
+        </items>
+        <label>Service Voice Settings</label>
+        <name>reqHvcc</name>
+    </sections>
+    <version>13.2</version>
+</CallCenter>
