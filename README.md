@@ -1,1 +1,1 @@
-Here's where I keep my personal Salesforce Sandbox that I use for personal development. Inside, you'll generally find code related to small projects that I'm working on and other metadata thats related to work I'm producing inside of the sandbox. 
+Here's the metadata behind the Salesforce Sandbox that I use for personal development. Inside, you'll find code related to small projects that I'm working on and other metadata thats related to work I'm producing inside of the sandbox. 
