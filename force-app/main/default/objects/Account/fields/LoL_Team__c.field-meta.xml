@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LoL_Team__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Is this Account representative of a team that plays league of legends?</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Is this Account representative of a team that plays league of legends?</inlineHelpText>
+    <label>LoL Team?</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>
